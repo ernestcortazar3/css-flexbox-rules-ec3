@@ -36,10 +36,10 @@ This assignment should prove that a student is able to:
 
 ## Standard requirements
 
-- [ ] Fork the project to your github account
-- [ ] Clone the project to your computer
-- [ ] Open the project in VSCode with `code <cloned_repo_folder_name>`
-- [ ] This Assignment is NOT tested. You can use all the desired creativity!
+- [x] Fork the project to your github account
+- [x] Clone the project to your computer
+- [x] Open the project in VSCode with `code <cloned_repo_folder_name>`
+- [x] This Assignment is NOT tested. You can use all the desired creativity!
 - [ ] All the tasks of the "Specific requirements" section MUST be solved
 - [ ] The project's file/folder structure should NOT be edited!
 - [ ] The ecommerce-page.html file should NOT be edited!
@@ -65,29 +65,29 @@ Acceptance criteria:
 
 Create the form HTML elements to imitate the mockup:
 
-- [ ] Wrap each group of a label and input elements with a container representing a row.
-- [ ] Maintain a 6px distance between the label and the input.
-- [ ] Keep a 30px distance between each row.
-- [ ] Bolden label text when paired with a text or text-like input field.
-- [ ] Avoid bold formatting for labels paired with checkboxes and radios.
-- [ ] Utilize a paragraph element if the label element can't be used.
-- [ ] Ensure inputs span the full width available within the parent.
-- [ ] Set the height of inputs with text-like values to 30px.
-- [ ] Set the height of dropdown elements to 30px.
+- [?] Wrap each group of a label and input elements with a container representing a row.
+- [x] Maintain a 6px distance between the label and the input.
+- [x] Keep a 30px distance between each row.
+- [x] Bolden label text when paired with a text or text-like input field.
+- [x] Avoid bold formatting for labels paired with checkboxes and radios.
+- [x] Utilize a paragraph element if the label element can't be used.
+- [x] Ensure inputs span the full width available within the parent.
+- [x] Set the height of inputs with text-like values to 30px.
+- [x] Set the height of dropdown elements to 30px.
 
 For the "Sign In form":
 
-- [ ] The form should have a border of 1px width and solid style.
-- [ ] The login input element.
-  - [ ] Should require a value.
-  - [ ] Should include a placeholder.
-  - [ ] The value should be validated as an email by the default browser mechanism.
-- [ ] The password input element.
-  - [ ] Should require a value.
-  - [ ] Should include a placeholder.
-  - [ ] The value should be validated to contain a minimum of 8 characters and a maximum of 20 by the default browser mechanism.
-  - [ ] Should hide symbols during typing.
-- [ ] The "Sign in" button should submit the form to initiate field validation using the default browser mechanism.
+- [x] The form should have a border of 1px width and solid style.
+- [x] The login input element:
+  - [x] Should require a value.
+  - [x] Should include a placeholder.
+  - [x] The value should be validated as an email by the default browser mechanism.
+- [x] The password input element.
+  - [x] Should require a value.
+  - [x] Should include a placeholder.
+  - [x]] The value should be validated to contain a minimum of 8 characters and a maximum of 20 by the default browser mechanism.
+  - [x] Should hide symbols during typing.
+- [x] The "Sign in" button should submit the form to initiate field validation using the default browser mechanism.
 
 For the "Sign Up Form"
 

@@ -21,6 +21,7 @@
         </ul>
       </nav>
     </header>
+
     <div class="content">
       <div id="sign-in">
         <div class="form-header">
@@ -45,6 +46,7 @@
               id="password-field"
               placeholder="passwords must match"
               minlength="8"
+              maxlength="20"
               required
             />
           </div>
@@ -123,7 +125,7 @@
             <input type="file" id="avatar" />
           </div>
           <div class="form-group-horizontal-control">
-            <div class="form-input-control">
+            <div class="form-input-control horizontal-flex-left">
               <label for="state">State</label>
               <select id="state">
                 <option value="" disabled selected>Select your state</option>
@@ -132,7 +134,7 @@
                 <option value="SD">South Dakota</option>
               </select>
             </div>
-            <div class="form-input-control">
+            <div class="form-input-control horizontal-flex-right">
               <label for="city">City</label>
               <select id="city">
                 <option value="" disabled selected>Select your city</option>
